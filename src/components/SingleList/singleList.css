@@ -1,0 +1,76 @@
+.container{
+    background-color: rgb(206, 206, 206);
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 20vh;
+    width: 100vw;
+}
+
+.company{
+    width: 20vw;
+}
+
+.main div{
+    text-align: center;
+    width: 20vw;
+}
+
+.main div h4{
+    font-weight: 900;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.main div p{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+button{
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin-right: 20px;
+}
+
+.secondary{
+    outline: 2px solid rgb(204, 195, 195);
+    border-radius: 20px;
+    height: auto;
+    width: 90vw;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(226, 228, 228);
+}
+
+.desc{
+    margin-bottom: 30px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.card section div{
+  margin-bottom: 20px;
+}
+
+
+
